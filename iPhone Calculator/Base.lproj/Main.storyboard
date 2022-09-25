@@ -31,6 +31,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="AC">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="38"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Fa-QQ-9Vz"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.64705884459999996" green="0.64705884459999996" blue="0.64705884459999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -53,6 +56,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="+/-">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rN4-hb-T6G"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.64705884459999996" green="0.64705884459999996" blue="0.64705884459999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -75,6 +81,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="%">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="41"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Vb-1w-rvZ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.64705884459999996" green="0.64705884459999996" blue="0.64705884459999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -97,6 +106,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="÷">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="52"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nPu-VW-IyH"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.94509804249999996" green="0.63921570780000003" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -124,6 +136,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="7">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Int-F8-F8S"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -146,6 +161,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="8">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qdg-37-0Bl"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -168,6 +186,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="9">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E04-Jx-aI9"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -190,6 +211,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="×">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="52"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V1S-wT-2lj"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.94509804249999996" green="0.63921570780000003" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -217,6 +241,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="4">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQa-nK-hRc"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -239,6 +266,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="5">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WO4-kl-zdW"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -261,6 +291,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="6">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2DP-Bd-TaE"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -283,6 +316,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="-">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="52"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DUy-Gm-pSt"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.94509804249999996" green="0.63921570780000003" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -310,6 +346,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="1">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZE-gs-Ngr"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -332,6 +371,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="2">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D31-Vy-CMX"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -354,6 +396,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="3">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="43"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ihv-xb-Gy3"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -376,6 +421,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="+">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="52"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bgP-NF-vZq"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.94509804249999996" green="0.63921570780000003" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -403,6 +451,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="0">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="47"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="crw-eW-URx"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -428,6 +479,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title=",">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="52"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="numBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ddb-g3-eTe"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -450,6 +504,9 @@
                                                                 <buttonConfiguration key="configuration" style="plain" title="=">
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="52"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="culcBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fza-75-25i"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.94509804249999996" green="0.63921570780000003" blue="0.231372565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -501,6 +558,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZPN-Pb-mvU" secondAttribute="trailing" id="vLX-aA-c4k"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayLbl" destination="lA9-rD-CnP" id="wPn-FG-rPc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
