@@ -13,6 +13,8 @@
 		4408396928E0735B000DCFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4408396728E0735B000DCFF3 /* Main.storyboard */; };
 		4408396B28E0735C000DCFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4408396A28E0735C000DCFF3 /* Assets.xcassets */; };
 		4408396E28E0735C000DCFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4408396C28E0735C000DCFF3 /* LaunchScreen.storyboard */; };
+		4408397628E07504000DCFF3 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408397528E07504000DCFF3 /* CircleView.swift */; };
+		4408397828E089EE000DCFF3 /* LongCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408397728E089EE000DCFF3 /* LongCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4408396A28E0735C000DCFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4408396D28E0735C000DCFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4408396F28E0735C000DCFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4408397528E07504000DCFF3 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		4408397728E089EE000DCFF3 /* LongCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4408396A28E0735C000DCFF3 /* Assets.xcassets */,
 				4408396C28E0735C000DCFF3 /* LaunchScreen.storyboard */,
 				4408396F28E0735C000DCFF3 /* Info.plist */,
+				4408397528E07504000DCFF3 /* CircleView.swift */,
+				4408397728E089EE000DCFF3 /* LongCircleView.swift */,
 			);
 			path = "iPhone Calculator";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4408396628E0735B000DCFF3 /* ViewController.swift in Sources */,
+				4408397828E089EE000DCFF3 /* LongCircleView.swift in Sources */,
+				4408397628E07504000DCFF3 /* CircleView.swift in Sources */,
 				4408396228E0735B000DCFF3 /* AppDelegate.swift in Sources */,
 				4408396428E0735B000DCFF3 /* SceneDelegate.swift in Sources */,
 			);
