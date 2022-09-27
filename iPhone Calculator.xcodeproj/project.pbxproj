@@ -62,18 +62,58 @@
 		4408396028E0735B000DCFF3 /* iPhone Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				4408396128E0735B000DCFF3 /* AppDelegate.swift */,
-				4408396328E0735B000DCFF3 /* SceneDelegate.swift */,
-				4408396528E0735B000DCFF3 /* ViewController.swift */,
-				4408396728E0735B000DCFF3 /* Main.storyboard */,
-				4408396A28E0735C000DCFF3 /* Assets.xcassets */,
-				4408396C28E0735C000DCFF3 /* LaunchScreen.storyboard */,
+				4470671028E36B7B009C4304 /* Delegates */,
+				4470670F28E36B75009C4304 /* Model */,
+				4470670E28E36B60009C4304 /* View */,
+				4470670D28E36B3C009C4304 /* Controller */,
+				4470670C28E36B26009C4304 /* Resources */,
 				4408396F28E0735C000DCFF3 /* Info.plist */,
-				4408397528E07504000DCFF3 /* CircleView.swift */,
-				4408397728E089EE000DCFF3 /* LongCircleView.swift */,
-				4470670A28E35EA9009C4304 /* tap.mp3 */,
 			);
 			path = "iPhone Calculator";
+			sourceTree = "<group>";
+		};
+		4470670C28E36B26009C4304 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4470670A28E35EA9009C4304 /* tap.mp3 */,
+				4408396A28E0735C000DCFF3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4470670D28E36B3C009C4304 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4408396528E0735B000DCFF3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4470670E28E36B60009C4304 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4408396728E0735B000DCFF3 /* Main.storyboard */,
+				4408396C28E0735C000DCFF3 /* LaunchScreen.storyboard */,
+				4408397528E07504000DCFF3 /* CircleView.swift */,
+				4408397728E089EE000DCFF3 /* LongCircleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4470670F28E36B75009C4304 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4470671028E36B7B009C4304 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4408396128E0735B000DCFF3 /* AppDelegate.swift */,
+				4408396328E0735B000DCFF3 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

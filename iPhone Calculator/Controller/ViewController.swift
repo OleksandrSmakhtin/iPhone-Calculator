@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var displayLbl: UILabel!
     
     var audioPlayer = AVAudioPlayer()
-    var isFinishedTypingNumber = true
+    private var isFinishedTypingNumber = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
