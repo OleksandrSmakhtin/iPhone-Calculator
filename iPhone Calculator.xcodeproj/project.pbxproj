@@ -15,6 +15,7 @@
 		4408396E28E0735C000DCFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4408396C28E0735C000DCFF3 /* LaunchScreen.storyboard */; };
 		4408397628E07504000DCFF3 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408397528E07504000DCFF3 /* CircleView.swift */; };
 		4408397828E089EE000DCFF3 /* LongCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408397728E089EE000DCFF3 /* LongCircleView.swift */; };
+		4470670B28E35EA9009C4304 /* tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4470670A28E35EA9009C4304 /* tap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4408396F28E0735C000DCFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4408397528E07504000DCFF3 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		4408397728E089EE000DCFF3 /* LongCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongCircleView.swift; sourceTree = "<group>"; };
+		4470670A28E35EA9009C4304 /* tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tap.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				4408396F28E0735C000DCFF3 /* Info.plist */,
 				4408397528E07504000DCFF3 /* CircleView.swift */,
 				4408397728E089EE000DCFF3 /* LongCircleView.swift */,
+				4470670A28E35EA9009C4304 /* tap.mp3 */,
 			);
 			path = "iPhone Calculator";
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				4408396E28E0735C000DCFF3 /* LaunchScreen.storyboard in Resources */,
 				4408396B28E0735C000DCFF3 /* Assets.xcassets in Resources */,
+				4470670B28E35EA9009C4304 /* tap.mp3 in Resources */,
 				4408396928E0735B000DCFF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
