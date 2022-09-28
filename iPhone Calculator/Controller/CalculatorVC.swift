@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class CalculatorVC: UIViewController {
 
     
     
@@ -16,6 +16,18 @@ class ViewController: UIViewController {
     
     var audioPlayer = AVAudioPlayer()
     private var isFinishedTypingNumber = true
+    private var displayValue: Double {
+        // when we use it
+        get {
+            guard let number = Double(displayLbl.text!) else {fatalError("Can't conver displayLbl(String) into Double")}
+            return number
+        }
+        set {
+            displayLbl.text = String(newValue)
+        }
+    }
+    private var calculator = CalculatorLogic()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,28 +36,22 @@ class ViewController: UIViewController {
 
     
     @IBAction func culcBtnPressed(_ sender: UIButton) {
-        print("culcButton pressed")
+        
         isFinishedTypingNumber = true
         
-        if let act = sender.titleLabel?.text {
-            
-            if act == "AC" {
-                displayLbl.text = "0"
-                
+        calculator.setNumber(displayValue)
+        
+        if let calcMethod = sender.titleLabel?.text {
+ 
+            if let result = calculator.calculate(symbol: calcMethod) {
+                displayValue = result
             }
-            
-            
-            
-            
-            
         }
+        
     }
     
     @IBAction func numBtnPressed(_ sender: UIButton) {
-        if let num = sender.titleLabel?.text {
-            
             tapSound()
-            
             // touch view action
             if let superView = sender.superview {
                 superView.backgroundColor = .gray
@@ -55,49 +61,32 @@ class ViewController: UIViewController {
                     superView.backgroundColor = #colorLiteral(red: 0.1951842308, green: 0.200163126, blue: 0.195766449, alpha: 1)
                 }
             })
+        
+        if let numValue = sender.titleLabel?.text {
             
-            
-            if displayLbl.text?.count == 9 {
-                return
-            }
-            
-            
-            
-//            // set max char
-//            if displayLbl.text?.count == 11 {
-//                return
-//            }
-//            if displayLbl.text!.count >= 4 {
-//                // make spacing
-//                switch displayLbl.text?.count {
-//                case 4:
-//                    displayLbl.text?.insert(" ", at: displayLbl.text.index)
-//                case 7:
-//                    displayLbl.text?.append(" ")
-//                case 2:
-//                    displayLbl.text?.append(" ")
-//                default:
-//                    print("bruh")
-//                }
-//            }
-            
-            
-            
-            
-            // print numbers
             if isFinishedTypingNumber {
-                displayLbl.text = num
+                displayLbl.text = numValue
                 isFinishedTypingNumber = false
             } else {
-                displayLbl.text?.append(num)
+                
+                if numValue == "." {
+                    
+                    let isInt = floor(displayValue) == displayValue
+                    
+                    if !isInt {
+                        return
+                    }
+                }
+                displayLbl.text = displayLbl.text! + numValue
             }
-            
-            
         }
+        
+            
+           
     }
     
     
-    
+//MARK: - AVPlayer
     func tapSound() {
         let pathToSound = Bundle.main.path(forResource: "tap", ofType: "mp3")!
         let url = URL(filePath: pathToSound)
