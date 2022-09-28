@@ -23,7 +23,13 @@ class CalculatorVC: UIViewController {
             return number
         }
         set {
-            displayLbl.text = String(newValue)
+            let dbl = newValue
+            let isInt = floor(dbl) == dbl
+            if isInt {
+                displayLbl.text = String(Int(dbl))
+            } else {
+                displayLbl.text = String(newValue)
+            }
         }
     }
     private var calculator = CalculatorLogic()
