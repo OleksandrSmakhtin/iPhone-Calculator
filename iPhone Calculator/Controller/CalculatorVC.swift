@@ -22,6 +22,7 @@ class CalculatorVC: UIViewController {
             guard let number = Double(displayLbl.text!) else {fatalError("Can't conver displayLbl(String) into Double")}
             return number
         }
+        // when we set it
         set {
             let dbl = newValue
             let isInt = floor(dbl) == dbl
@@ -83,6 +84,7 @@ class CalculatorVC: UIViewController {
         
     }
     
+    var dot = false
     @IBAction func numBtnPressed(_ sender: UIButton) {
         tapSound()
         // touch view action
@@ -101,14 +103,13 @@ class CalculatorVC: UIViewController {
                 displayLbl.text = numValue
                 isFinishedTypingNumber = false
             } else {
-                
                 if numValue == "." {
-                    
-                    let isInt = floor(displayValue) == displayValue
-                    
-                    if !isInt {
-                        return
-                    }
+                        let isInt = floor(displayValue) == displayValue
+                        
+                        if !isInt {
+                            return
+                        }
+                        dot = true
                 }
                 displayLbl.text = displayLbl.text! + numValue
             }
