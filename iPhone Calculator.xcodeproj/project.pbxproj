@@ -77,7 +77,7 @@
 		4470670C28E36B26009C4304 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4470670A28E35EA9009C4304 /* tap.mp3 */,
+				4470671328E5C741009C4304 /* Sounds */,
 				4408396A28E0735C000DCFF3 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -117,6 +117,14 @@
 				4408396328E0735B000DCFF3 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4470671328E5C741009C4304 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4470670A28E35EA9009C4304 /* tap.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +354,7 @@
 				DEVELOPMENT_TEAM = 3PN53MQP93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iPhone Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Calculator;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -377,6 +386,7 @@
 				DEVELOPMENT_TEAM = 3PN53MQP93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iPhone Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Calculator;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
